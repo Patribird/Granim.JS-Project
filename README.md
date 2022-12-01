@@ -12,4 +12,5 @@ The purpose of this assignment was to allow us to read documentation and explore
 Thanks for checking it out!
 
 UPDATE 12/1/2022 @2:20:
+
 -Decided to allow the user to submit the form on enter key press, for convenience.
