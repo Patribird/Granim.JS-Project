@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/css/home-page.css">
+    <link rel="shortcut icon" href="/images/trivision-favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="index.html"><img src="/images/trivision-favicon.png" alt=""></a>
+    <a href="index.html"><h1 id="trivision-text">Trivision</h1></a>
+
+    <canvas id="background-canvas"></canvas>
+
+    <p id="welcome">Welcome to Trivision!</p> <br>
+    <p class="welcome-message">
+        This website was done for an assignment and a took while to finish.
+        The goal of the assignment was to explore and implement a library on my own.
+        I had a great time creating this website and it was super rewarding to 
+        make Granim JS to work.
+    </p>
+
+    <br> 
+    <p class="welcome-message"> 
+        As all the pieces started to fall into place I let out 
+        an audible sigh of relief. What a pain, but man it was so worth it.
+    </p>
+
+    <br> 
+    <p class="welcome-message"> 
+        Also, I found the logo online, and the name "Trivision"
+        was something my friend came up with in a Discord call.
+    </p>
+    
+    <script src="/scripts/granim.min.js"></script>
+    <script>
+        var granimInstance = new Granim({
+            element: '#background-canvas',
+            direction: 'top-bottom',
+            isPausedWhenNotInView: true,
+            states : {
+                "default-state": {
+                    gradients: [
+                        [
+                            { color: '#833ab4', pos: .2 },
+                            { color: '#fd1d1d', pos: .8 },
+                            { color: '#38ef7d', pos: 1 }
+                        ], [
+                            { color: '#40e0d0', pos: 0 },
+                            { color: '#ff8c00', pos: .2 },
+                            { color: '#ff0080', pos: .75 }
+                        ],
+                    ]
+                }
+            }
+        });
+    </script>
+</body>
+</html> 

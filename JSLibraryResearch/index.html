@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granim JS Library</title>
+
+    <link rel="stylesheet" href="/css/site.css">
+    <link rel="shortcut icon" href="/images/trivision-favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Logo and Name <a> tags -->
+    <a href="/index.html"><img src="/images/trivision-favicon.png" alt=""></a>
+    <a href="/index.html"><p id="trivision-text">Trivision</p></a>
+
+    <form action="home-page.html" method="GET" name="home-page" id="home-page">
+        <!-- 
+            As much of a pain in the butt this was, it looks SO good. Maybe
+            I've gone senile but I love it so much lol. 
+        -->
+        <canvas id="canvas-basic" class="basic-canvas"></canvas>
+        <p id="login-background" class="basic-canvas"></p>
+
+        <h1 id="welcome-message">Login</h1>
+        <p id="error-message"></p>
+        <input id="email" type="text" name="email" placeholder="Email">
+        <input id="password" type="password" name="password" placeholder="Password">
+        <p id="login-button">Login</p>
+    </form>
+
+    <div id="text-boxes">
+        <canvas id="login-canvas" class="login-canvas"></canvas>
+    </div>
+    
+    <script src="/scripts/granim.min.js"></script>
+    <script src="/scripts/main.js"></script>
+</body>
+</html>
