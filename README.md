@@ -10,3 +10,6 @@ For the bad, the second webpage was mostly thrown together in the interest of ti
 The purpose of this assignment was to allow us to read documentation and explore how one would implement something on their own. Then comes the troubleshooting aspect of using a library for a different purpose than what the author originally intended. It's truly a unique and enjoyable experience. This project was the first step in showing me that this is something I'd like to do for a living.
 
 Thanks for checking it out!
+
+UPDATE 12/1/2022 @2:20:
+-Decided to allow the user to submit the form on enter key press, for convenience.
