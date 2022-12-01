@@ -1,6 +1,16 @@
 window.onload = function() {
     // Set up onclick handler for Login button
     let loginBtn = document.getElementById("login-button");
+
+    let input = document.getElementById("login-button");
+
+    document.addEventListener("keypress", function(event) {
+        if (event.key == "Enter") {
+            event.preventDefault();
+            input.event = validateInfo();
+        }
+    });
+
     loginBtn.onclick = validateInfo;
 }
 
