@@ -1,4 +1,4 @@
-# Granim.JS-Project-
+# Granim.JS-Project
 Library research project done in 2020 for my JavaScript class.
 
 In 2020, when I was still attending Clover Park Technical College. This final project involved finding a library online and implementing it into a brand new website. The requirements for size of the website weren't crazy to make sure that we had enought time to troubleshoot and ask for help. This project is the result of about a few days of work. The result has a lot of good and some bad.
